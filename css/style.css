@@ -1,7 +1,25 @@
-.flotar-derecha{
-	float: right;
+header{
+	background-image: url("http://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+	color: #FFFFFF;
 }
 
-.fondo-nav{
-	opacity: 1;
+.section-1{
+	background-color: #FFFFFF;
+}
+
+.section-2{
+	background-color: #EEEEEE;
+}
+
+ul{
+	list-style: none;
+}
+
+.intro-text{
+	padding-top: 300px;
+	padding-bottom: 200px;
 }
