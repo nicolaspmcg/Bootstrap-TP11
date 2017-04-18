@@ -3,10 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>Agency - Workshop Bootstrap</title>
+
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<nav class="navbar navbar-fixed-top">
@@ -14,9 +22,9 @@
 			<div class="container">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
 			    </button>
-			    <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+			    <a class="navbar-brand navbar-custom" href="#page-top">Start Bootstrap</a>
 			    <div class="collapse navbar-collapse">
-		      		<ul class="nav navbar-nav pull-right">
+		      		<ul class="nav navbar-nav pull-right navbar-lista">
 		        		<li><a href="#services">SERVICES</a></li>
 		        		<li><a href="#portfolio">PORTFOLIO</a></li>
 		        		<li><a href="#about">ABOUT</a></li>
@@ -33,7 +41,7 @@
 			<div class="intro-text">
 				<h2>Welcome To Our Studio!</h2>
 				<h1>IT'S NICE TO MEET YOU</h1>
-				<a href="#services" class="btn btn-default" >TELL ME MORE</a>
+				<a href="#services" class="btn btn-default boton-principal" >TELL ME MORE</a>
 			</div>
 		</div>
 	</header>
@@ -43,24 +51,24 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<h3>SERVICES</h3>
-					<h4>Lorem ipsum dolor sit amet consectetur.</h4>
+					<h4 class="text-muted">Lorem ipsum dolor sit amet consectetur.</h4>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 text-center">
-					<span class="glyphicon glyphicon-shopping-cart"></span>
+					<span class="glyphicon glyphicon-shopping-cart iconos fa-4x"></span>
 					<h5>E-Commerce</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
 				</div>
 				<div class="col-md-4 text-center">
-					<span class="glyphicon glyphicon-phone"></span>
-					<h5>E-Commerce</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					<span class="glyphicon glyphicon-phone iconos fa-4x"></span>
+					<h5>Responsive Design</h5>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
 				</div>
 				<div class="col-md-4 text-center">
-					<span class="glyphicon glyphicon-lock"></span>
+					<span class="glyphicon glyphicon-lock iconos fa-4x"></span>
 					<h5>Web Security</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
 				</div>			
 			</div>
 		</div>
@@ -75,46 +83,76 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal1">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/roundicons.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Round Icons</h5>
-						<p>Graphic Design</p>
+						<p class="text-muted portfolio-p">Graphic Design</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal2">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/startup-framework.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Startup Framework</h5>
-						<p>Website Design</p>
+						<p class="text-muted portfolio-p">Website Design</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal3">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/treehouse.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Treehouse</h5>
-						<p>Website Design</p>
+						<p class="text-muted portfolio-p">Website Design</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal4">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/golden.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Golden</h5>
-						<p>Website Design</p>
+						<p class="text-muted portfolio-p">Website Design</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal5">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/escape.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Escape</h5>
-						<p>Website Design</p>
+						<p class="text-muted portfolio-p">Website Design</p>
 					</div>
 				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12">
-					<a href=""></a>
-					<div class="text-center">
+				<div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
+					<a class="portfolio-link" href="http://blackrockdigital.github.io/startbootstrap-agency/#portfolioModal6">
+						<div class="portfolio-hover">
+							<span></span>
+							<img src="img/dreams.png" class="img-responsive">
+						</div>
+					</a>
+					<div class="div-portfolio">
 						<h5>Dreams</h5>
-						<p>Website Design</p>
+						<p class="text-muted">Website Design</p>
 					</div>
 				</div>
 			</div>
@@ -133,7 +171,7 @@
 				<ul class="timeline">
 					<li>
 						<div class="timeline-image">
-							<img class="image-circle img-responsive" src="" alt>
+							<img class="image-circle img-responsive" src="img/1.jpg">
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
@@ -147,7 +185,7 @@
 					</li>
 					<li class="timeline-inverted">
 						<div class="timeline-image">
-							<img class="image-circle img-responsive" src="" alt>
+							<img class="image-circle img-responsive" src="img/2.jpg">
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
@@ -161,7 +199,7 @@
 					</li>
 					<li>
 						<div class="timeline-image">
-							<img class="image-circle img-responsive" src="" alt>
+							<img class="image-circle img-responsive" src="img/3.jpg">
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
@@ -175,7 +213,7 @@
 					</li>
 					<li class="timeline-inverted">
 						<div class="timeline-image">
-							<img class="image-circle img-responsive" src="" alt>
+							<img class="image-circle img-responsive" src="img/4.jpg">
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
@@ -189,7 +227,6 @@
 					</li>
 					<li class="timeline-inverted">
 						<div class="timeline-image">
-							<img class="image-circle img-responsive" src="" alt>
 							<h5>
 								Be Part<br>Of Our<br>Story!
 							</h5>
@@ -210,77 +247,103 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 col-sm-12 col-xs-12 text-center">
-					<a href=""></a>
+				<div class="col-sm-4 text-center margin-team">
+					<img class="img-responsive image-circle circle-profile" src="img/profile-1.jpg">
 					<h5>Kay Garland</h5>
-					<p>Lead Designer</p>
+					<p class="text-muted">Lead Designer</p>
 					<ul class="list-inline">
 						<li>
-							<span class="ion-social-twitter"></span>
+							<a href="www.twitter.com">
+								<span class="ion-social-twitter"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-facebook"></span>
+							<a href="www.facebook.com">
+								<span class="ion-social-facebook"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-linkedin"></span>
+							<a href="www.linkedin.com">
+								<span class="ion-social-linkedin"></span>
+							</a>
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 text-center">
-					<a href=""></a>
+				<div class="col-sm-4 text-center margin-team">
+					<img class="img-responsive image-circle circle-profile" src="img/profile-2.jpg">
 					<h5>Larry Parker</h5>
-					<p>Lead Marketer</p>
+					<p class="text-muted">Lead Marketer</p>
 					<ul class="list-inline">
 						<li>
-							<span class="ion-social-twitter"></span>
+							<a href="www.twitter.com">
+								<span class="ion-social-twitter"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-facebook"></span>
+							<a href="www.facebook.com">
+								<span class="ion-social-facebook"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-linkedin"></span>
+							<a href="www.linkedin.com">
+								<span class="ion-social-linkedin"></span>
+							</a>
 						</li>
 					</ul>
 				</div>
-				<div class="col-md-4 col-sm-12 col-xs-12 text-center">
-					<a href=""></a>
+				<div class="col-sm-4 text-center margin-team">
+					<img class="img-responsive image-circle circle-profile" src="img/profile-3.jpg">
 					<h5>Diana Petersen</h5>
-					<p>Lead Developer</p>
+					<p class="text-muted">Lead Developer</p>
 					<ul class="list-inline">
 						<li>
-							<span class="ion-social-twitter"></span>
+							<a href="www.twitter.com">
+								<span class="ion-social-twitter"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-facebook"></span>
+							<a href="www.facebook.com">
+								<span class="ion-social-facebook"></span>
+							</a>
 						</li>
 						<li>
-							<span class="ion-social-linkedin"></span>
+							<a href="www.linkedin.com">
+								<span class="ion-social-linkedin"></span>
+							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+					<p class="team-p text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section-1">
+	<aside class="clients">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<a href=""></a>
+					<a href="#">
+						<img src="img/envato.jpg" class="img-responsive img-centered">
+					</a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<a href=""></a>
+					<a href="#">
+						<img src="img/designmodo.jpg" class="img-responsive img-centered">
+					</a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<a href=""></a>
+					<a href="#">
+						<img src="img/themeforest.jpg" class="img-responsive img-centered">
+					</a>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12">
-					<a href=""></a>
+					<a href="#">
+						<img src="img/creative-market.jpg" class="img-responsive img-centered">
+					</a>
 				</div>
 			</div>
 		</div>
