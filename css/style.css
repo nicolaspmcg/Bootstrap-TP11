@@ -68,6 +68,18 @@ body {
 	margin-right: -15px;
 }
 
+.span-hamburger{
+	color:white;
+	background-color: #fed136;
+	border-radius: 30%;
+}
+
+.navbar a:hover {
+	color: #fed136;
+	background-color: transparent;
+	text-decoration: none;
+}
+
 h2 {
 	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: italic;
@@ -95,6 +107,12 @@ h1 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.boton-principal:hover{
+	background-color: #FEC503;
+	border-color: #FEC503;
+	color: white;
 }
 
 h3 {
@@ -148,17 +166,66 @@ h5 {
 }
 
 .portfolio-item {
-	margin: 0 0 30px;
+	margin-bottom: 30px;
 }
 
-.portfolio-hover {
+.portfolio-span{
+	display: none;
+}
 
+.portfolio-span:hover {
+	display: block;
+	color: black;
+	font-size: 40px;
+	height: 40px;
+    width: 40px;
+}
+
+.portfolio-hover:hover {
+	background-color: (254,209,54,0.5);
+	opacity: 0.5;
 }
 
 .image-circle {
 	border-radius: 50%;
 	margin: 0 auto;
     border: 7px solid #f1f1f1;
+}
+
+.timeline-panel {
+	display: block;
+}
+
+.timeline-heading-right h5 {
+	text-align: right;
+}
+
+.timeline-body-right p {
+	text-align: right;
+}
+
+.timeline-image{
+	display: inline-block;
+}
+
+.timeline-final {
+	background-color: #fed136;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin: 0 auto;
+	border: 7px solid: #f1f1f1;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.timeline-final h5 {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	color: white;
+	font-size: 24px;
 }
 
 .circle-profile {
@@ -181,6 +248,11 @@ h5 {
     font-size: 20px;
     line-height: 40px;
     color: #fff;
+    transition: all .3s;
+}
+
+.social:hover {
+	background-color: #FED136;
 }
 
 .team-p {
@@ -245,5 +317,10 @@ footer p{
 }
 
 footer a {
+	color: #fed136;
+}
+
+footer a:hover {
+	text-decoration: underline;
 	color: #fed136;
 }
